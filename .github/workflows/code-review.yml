@@ -23,8 +23,8 @@ jobs:
       uses: dbelyaev/action-checkstyle@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        reporter: github-pr-review
-        checkstyle_config: Bai9.7/src/demo/checkstyle.xml
+        reporter: github-check
+        checkstyle_config: checkstyle.xml
 
     - name: Build with Maven
-      run: mvn -B clean compile --file Bai9.7/src/demo/pom.xml
+      run: mvn -B clean compile
