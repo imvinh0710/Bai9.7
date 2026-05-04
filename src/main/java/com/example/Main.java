@@ -2,7 +2,7 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Automated Code Review       ");
-        int MyNum=10;
+        System.out.println("Automated Code Review");
+        int myNum=10;
     }
 }
